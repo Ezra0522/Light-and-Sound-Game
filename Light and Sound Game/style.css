@@ -1,0 +1,34 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: grey;
+  color: #315577;;
+}
+h1 {
+  font-family: verdana, arial, sans-serif;
+}
+button {
+  padding: 10px ;
+  border-radius: 10px;
+
+}
+#gameButtonArea > button {
+  width: 200px;
+  height: 200px;
+  margin: 2px;
+}
+.hidden {
+  display: none;
+}
+#button1:active, #button1.lit{
+  background: #a62626;
+}
+#button2:active, #button2.lit{
+  background: #2e5922;
+}
+#button3:active, #button3.lit {
+  background: #0168b7;
+}
+#button4:active, #button4.lit {
+  background: #a8a800;;
+}
